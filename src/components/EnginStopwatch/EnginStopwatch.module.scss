@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+
+.buttonsEngin {
+    text-align: center;
+}
+.displayStopwatch {
+    margin: 20px auto;
+    text-align: center;
+    @media (max-width: 800px) {
+        .displayStopwatch {
+            font-size: 12px;
+        }
+    }
+}

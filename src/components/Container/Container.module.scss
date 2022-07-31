@@ -1,0 +1,16 @@
+@import '../../styles/settings.scss';
+
+.container {
+    max-width: 50%; 
+    margin: 10em auto;
+    background: $color-dark;
+    border-radius: 15px;
+    h1 {
+        //font-size: 25px;
+        cursor: pointer; 
+    }
+    
+    @media (max-width: 768px) {
+        
+      }
+}
